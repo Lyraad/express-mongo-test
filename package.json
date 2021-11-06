@@ -4,8 +4,8 @@
   "description": "",
   "main": "/public/index.js",
   "scripts": {
-    "start": "node ./public/index.js",
-    "serve": "nodemon ./public/index.js"
+    "start": "node ./public/index",
+    "serve": "nodemon ./public/index"
   },
   "author": "Daryl Hewett",
   "license": "ISC",
