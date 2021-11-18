@@ -4,8 +4,9 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
-    "serve": "nodemon ./dist/index"
+    "start": "ts-node ./dist/index.js",
+    "serve": "nodemon ./src/index.ts",
+    "compileTS": "tsc"
   },
   "author": "Daryl Hewett",
   "license": "ISC",
